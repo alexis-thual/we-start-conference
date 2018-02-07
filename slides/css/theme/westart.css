@@ -34,6 +34,20 @@ img {
     border: none !important;
 }
 
+.flex-box {
+    display: flex;
+}
+
+.flex-box > div {
+    margin: 20px;
+}
+
+.ul-none {
+    list-style-type: none !important;
+    padding: 0;
+    margin: 0 !important;
+}
+
 .reveal {
   font-family: "Roboto", "Source Sans Pro", Helvetica, sans-serif;
   font-size: 42px;
