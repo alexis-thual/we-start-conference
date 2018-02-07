@@ -27,6 +27,13 @@ li {
   margin-bottom: 10px !important;
 }
 
+img {
+    background: none !important;
+    background-color: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
 .reveal {
   font-family: "Roboto", "Source Sans Pro", Helvetica, sans-serif;
   font-size: 42px;

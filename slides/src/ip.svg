@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 841.9 215" enable-background="new 0 0 841.9 215" xml:space="preserve">
+<g id="IP">
+	<g id="connections">
+		<circle fill="#A7A9AC" cx="253.8" cy="118.6" r="15.3"/>
+		<text transform="matrix(1 0 0 1 212.3872 57.5425)" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">85.69.96.147</text>
+		<circle fill="#A7A9AC" cx="615.1" cy="118.6" r="15.3"/>
+		<rect x="252.9" y="115.4" fill="#A7A9AC" width="362.2" height="6.5"/>
+		<text transform="matrix(1 0 0 1 572.3872 57.5425)"><tspan x="0" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">122</tspan><tspan x="22.4" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">.</tspan><tspan x="26.6" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">44.95.115</tspan></text>
+	</g>
+	<g id="arrows" display="none">
+		<g display="inline">
+			<line fill="#A7A9AC" x1="405.3" y1="-163.7" x2="458.6" y2="-163.7"/>
+			<g>
+				<line fill="none" stroke="#7F3F98" stroke-width="5" stroke-miterlimit="10" x1="405.3" y1="-163.7" x2="444.2" y2="-163.7"/>
+				<g>
+					<polygon fill="#7F3F98" points="441.3,-153.7 458.6,-163.7 441.3,-173.7 					"/>
+				</g>
+			</g>
+		</g>
+		<g display="inline">
+			<line fill="#A7A9AC" x1="458.6" y1="-140.9" x2="405.3" y2="-140.9"/>
+			<g>
+				<line fill="none" stroke="#7F3F98" stroke-width="5" stroke-miterlimit="10" x1="458.6" y1="-140.9" x2="419.6" y2="-140.9"/>
+				<g>
+					<polygon fill="#7F3F98" points="422.6,-150.9 405.3,-140.9 422.6,-130.9 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="arrows_copy">
+		<g>
+			<line fill="#A7A9AC" x1="405.3" y1="98.3" x2="458.6" y2="98.3"/>
+			<g>
+				<line fill="none" stroke="#4CBEA2" stroke-width="5" stroke-miterlimit="10" x1="405.3" y1="98.3" x2="444.2" y2="98.3"/>
+				<g>
+					<polygon fill="#4CBEA2" points="441.3,108.2 458.6,98.3 441.3,88.3 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<line fill="#A7A9AC" x1="458.6" y1="141.7" x2="405.3" y2="141.7"/>
+			<g>
+				<line fill="none" stroke="#4CBEA2" stroke-width="5" stroke-miterlimit="10" x1="458.6" y1="141.7" x2="419.6" y2="141.7"/>
+				<g>
+					<polygon fill="#4CBEA2" points="422.6,131.7 405.3,141.6 422.6,151.6 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="laptop_1_">
+		<rect x="681.6" y="76.7" fill="#BCBEC0" width="100.9" height="65"/>
+		<polygon fill="#A7A9AC" points="782.6,141.7 681.6,141.7 669.9,150.8 669.9,156.2 795.5,156.2 795.5,150.8 		"/>
+		<rect x="685.9" y="81.5" fill="#D1D3D4" width="92.3" height="56"/>
+	</g>
+	<g id="laptop">
+		<rect x="84.3" y="76.7" fill="#BCBEC0" width="100.9" height="65"/>
+		<polygon fill="#A7A9AC" points="185.2,141.7 84.3,141.7 72.6,150.8 72.6,156.2 198.1,156.2 198.1,150.8 		"/>
+		<rect x="88.6" y="81.5" fill="#D1D3D4" width="92.3" height="56"/>
+	</g>
+</g>
+<g id="multiplicity" display="none">
+	<g id="connections_copy" display="inline">
+		<circle fill="#A7A9AC" cx="253.8" cy="118.5" r="15.3"/>
+		<text transform="matrix(1 0 0 1 212.362 57.3893)" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">85.69.96.147</text>
+		<circle fill="#A7A9AC" cx="615" cy="118.5" r="15.3"/>
+		<circle fill="#A7A9AC" cx="512.6" cy="61" r="15.3"/>
+		<circle fill="#A7A9AC" cx="410" cy="179" r="15.3"/>
+		<text transform="matrix(1 0 0 1 572.3621 57.3893)"><tspan x="0" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">122</tspan><tspan x="22.4" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">.</tspan><tspan x="26.6" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">44.95.115</tspan></text>
+		<path fill="none" stroke="#A7A9AC" stroke-width="7" stroke-miterlimit="10" d="M253.8,118.5c0,0,128.8,12.6,102.8-37.1
+			s-73.3,41-15.3,56s44.5-79.7,90.6-70.7s14.1,81.1,58.7,89.4S524,118.5,615,118.5"/>
+		<path fill="none" stroke="#A7A9AC" stroke-width="7" stroke-miterlimit="10" d="M449.7,76.5c0,0,38.2,47.2,62.9-15.5"/>
+	</g>
+	<g id="arrows_copy_2_1_">
+		<g display="inline">
+			<line fill="#A7A9AC" x1="405.3" y1="-163.7" x2="458.6" y2="-163.7"/>
+			<g>
+				<line fill="none" stroke="#7F3F98" stroke-width="5" stroke-miterlimit="10" x1="405.3" y1="-163.7" x2="444.2" y2="-163.7"/>
+				<g>
+					<polygon fill="#7F3F98" points="441.3,-153.7 458.6,-163.7 441.3,-173.7 					"/>
+				</g>
+			</g>
+		</g>
+		<g display="inline">
+			<line fill="#A7A9AC" x1="458.6" y1="-140.9" x2="405.3" y2="-140.9"/>
+			<g>
+				<line fill="none" stroke="#7F3F98" stroke-width="5" stroke-miterlimit="10" x1="458.6" y1="-140.9" x2="419.6" y2="-140.9"/>
+				<g>
+					<polygon fill="#7F3F98" points="422.6,-150.9 405.3,-140.9 422.6,-130.9 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="arrows_copy_2" display="inline">
+		<g>
+			<path fill="#A7A9AC" d="M458.5,98.1"/>
+		</g>
+		<g>
+			<path fill="#A7A9AC" d="M405.3,98.1"/>
+		</g>
+		<g>
+			<path fill="#A7A9AC" d="M405.3,141.5"/>
+		</g>
+		<g>
+			<path fill="#A7A9AC" d="M458.5,141.5"/>
+		</g>
+		<path fill="none" stroke="#A7A9AC" stroke-width="7" stroke-miterlimit="10" d="M363.2,137.3c0,0,66.1-29.7,46.1,41.7"/>
+	</g>
+	<g id="laptop_copy_1_" display="inline">
+		<rect x="681.6" y="76.5" fill="#BCBEC0" width="100.9" height="65"/>
+		<polygon fill="#A7A9AC" points="782.5,141.5 681.6,141.5 669.9,150.7 669.9,156 795.4,156 795.4,150.7 		"/>
+		<rect x="685.9" y="81.4" fill="#D1D3D4" width="92.3" height="56"/>
+	</g>
+	<g id="laptop_copy" display="inline">
+		<rect x="84.3" y="76.5" fill="#BCBEC0" width="100.9" height="65"/>
+		<polygon fill="#A7A9AC" points="185.2,141.5 84.3,141.5 72.6,150.7 72.6,156 198.1,156 198.1,150.7 		"/>
+		<rect x="88.6" y="81.4" fill="#D1D3D4" width="92.3" height="56"/>
+	</g>
+</g>
+<g id="IP_copy" display="none">
+	<g id="connections_copy_2" display="inline">
+		<circle fill="#A7A9AC" cx="253.8" cy="118.4" r="15.3"/>
+		<text transform="matrix(1 0 0 1 212.362 57.3)" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">85.69.96.147</text>
+		<circle fill="#A7A9AC" cx="615" cy="118.4" r="15.3"/>
+		<rect x="257.8" y="115.2" fill="#A7A9AC" width="357.2" height="6.5"/>
+		<text transform="matrix(1 0 0 1 572.3621 57.3)"><tspan x="0" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">122</tspan><tspan x="22.4" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">.</tspan><tspan x="26.6" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">44.95.115</tspan></text>
+	</g>
+	<g id="arrows_copy_3_1_">
+		<g display="inline">
+			<line fill="#A7A9AC" x1="405.3" y1="-163.7" x2="458.6" y2="-163.7"/>
+			<g>
+				<line fill="none" stroke="#7F3F98" stroke-width="5" stroke-miterlimit="10" x1="405.3" y1="-163.7" x2="444.2" y2="-163.7"/>
+				<g>
+					<polygon fill="#7F3F98" points="441.3,-153.7 458.6,-163.7 441.3,-173.7 					"/>
+				</g>
+			</g>
+		</g>
+		<g display="inline">
+			<line fill="#A7A9AC" x1="458.6" y1="-140.9" x2="405.3" y2="-140.9"/>
+			<g>
+				<line fill="none" stroke="#7F3F98" stroke-width="5" stroke-miterlimit="10" x1="458.6" y1="-140.9" x2="419.6" y2="-140.9"/>
+				<g>
+					<polygon fill="#7F3F98" points="422.6,-150.9 405.3,-140.9 422.6,-130.9 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="arrows_copy_3" display="inline">
+		<g>
+			<line fill="#A7A9AC" x1="327.9" y1="98" x2="381.2" y2="98"/>
+			<g>
+				<line fill="none" stroke="#4CBEA2" stroke-width="5" stroke-miterlimit="10" x1="327.9" y1="98" x2="366.8" y2="98"/>
+				<g>
+					<polygon fill="#4CBEA2" points="363.9,108 381.2,98 363.9,88.1 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<line fill="#A7A9AC" x1="485.6" y1="98" x2="538.9" y2="98"/>
+			<g>
+				<line fill="none" stroke="#4CBEA2" stroke-width="5" stroke-miterlimit="10" x1="485.6" y1="98" x2="524.5" y2="98"/>
+				<g>
+					<polygon fill="#4CBEA2" points="521.6,108 538.9,98 521.6,88.1 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<line fill="#A7A9AC" x1="381.2" y1="141.4" x2="327.9" y2="141.4"/>
+			<g>
+				<line fill="none" stroke="#4CBEA2" stroke-width="5" stroke-miterlimit="10" x1="381.2" y1="141.4" x2="342.2" y2="141.4"/>
+				<g>
+					<polygon fill="#4CBEA2" points="345.2,131.4 327.9,141.4 345.2,151.4 					"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<line fill="#A7A9AC" x1="538.9" y1="141.4" x2="485.6" y2="141.4"/>
+			<g>
+				<line fill="none" stroke="#4CBEA2" stroke-width="5" stroke-miterlimit="10" x1="538.9" y1="141.4" x2="499.9" y2="141.4"/>
+				<g>
+					<polygon fill="#4CBEA2" points="502.8,131.4 485.6,141.4 502.8,151.4 					"/>
+				</g>
+			</g>
+		</g>
+		<rect x="398.2" y="81.3" fill="#4CBEA2" width="70" height="74.7"/>
+	</g>
+	<g id="laptop_copy_2_1_" display="inline">
+		<rect x="681.6" y="76.4" fill="#BCBEC0" width="100.9" height="65"/>
+		<polygon fill="#A7A9AC" points="782.5,141.4 681.6,141.4 669.9,150.6 669.9,155.9 795.4,155.9 795.4,150.6 		"/>
+		<rect x="685.9" y="81.3" fill="#D1D3D4" width="92.3" height="56"/>
+	</g>
+	<g id="laptop_copy_2" display="inline">
+		<rect x="84.3" y="76.4" fill="#BCBEC0" width="100.9" height="65"/>
+		<polygon fill="#A7A9AC" points="185.2,141.4 84.3,141.4 72.6,150.6 72.6,155.9 198.1,155.9 198.1,150.6 		"/>
+		<rect x="88.6" y="81.3" fill="#D1D3D4" width="92.3" height="56"/>
+	</g>
+</g>
+<g id="read" display="none">
+	<g id="connections_copy_3" display="inline">
+		<circle fill="#A7A9AC" cx="253.8" cy="118.4" r="15.3"/>
+		<text transform="matrix(1 0 0 1 212.362 57.3)" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">85.69.96.147</text>
+		<circle fill="#A7A9AC" cx="615" cy="118.4" r="15.3"/>
+		<circle fill="#A7A9AC" cx="431.9" cy="171.3" r="15.3"/>
+		<rect x="252.8" y="115.2" fill="#A7A9AC" width="362.2" height="6.5"/>
+		<text transform="matrix(1 0 0 1 572.3621 57.3)"><tspan x="0" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">122</tspan><tspan x="22.4" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">.</tspan><tspan x="26.6" y="0" fill="#D1D3D4" font-family="'Roboto-Medium'" font-size="13.141">44.95.115</tspan></text>
+	</g>
+	<g id="arrows_copy_4_1_">
+		<g display="inline">
+			<line fill="#A7A9AC" x1="405.3" y1="-163.7" x2="458.6" y2="-163.7"/>
+			<g>
+				<line fill="none" stroke="#7F3F98" stroke-width="5" stroke-miterlimit="10" x1="405.3" y1="-163.7" x2="444.2" y2="-163.7"/>
+				<g>
+					<polygon fill="#7F3F98" points="441.3,-153.7 458.6,-163.7 441.3,-173.7 					"/>
+				</g>
+			</g>
+		</g>
+		<g display="inline">
+			<line fill="#A7A9AC" x1="458.6" y1="-140.9" x2="405.3" y2="-140.9"/>
+			<g>
+				<line fill="none" stroke="#7F3F98" stroke-width="5" stroke-miterlimit="10" x1="458.6" y1="-140.9" x2="419.6" y2="-140.9"/>
+				<g>
+					<polygon fill="#7F3F98" points="422.6,-150.9 405.3,-140.9 422.6,-130.9 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="arrows_copy_4" display="inline">
+		<g>
+			<line fill="#A7A9AC" x1="405.3" y1="98.3" x2="458.6" y2="98.3"/>
+			<g>
+				<line fill="none" stroke="#4CBEA2" stroke-width="5" stroke-miterlimit="10" x1="405.3" y1="98.3" x2="444.2" y2="98.3"/>
+				<g>
+					<polygon fill="#4CBEA2" points="441.3,108.2 458.6,98.3 441.3,88.3 					"/>
+				</g>
+			</g>
+		</g>
+		<line fill="none" stroke="#A7A9AC" stroke-width="7" stroke-miterlimit="10" x1="431.9" y1="118.4" x2="431.9" y2="171.3"/>
+	</g>
+	<g id="laptop_copy_3_1_" display="inline">
+		<rect x="681.6" y="76.4" fill="#BCBEC0" width="100.9" height="65"/>
+		<polygon fill="#A7A9AC" points="782.5,141.4 681.6,141.4 669.9,150.6 669.9,155.9 795.4,155.9 795.4,150.6 		"/>
+		<rect x="685.9" y="81.3" fill="#D1D3D4" width="92.3" height="56"/>
+	</g>
+	<g id="laptop_copy_3" display="inline">
+		<rect x="84.3" y="76.4" fill="#BCBEC0" width="100.9" height="65"/>
+		<polygon fill="#A7A9AC" points="185.2,141.4 84.3,141.4 72.6,150.6 72.6,155.9 198.1,155.9 198.1,150.6 		"/>
+		<rect x="88.6" y="81.3" fill="#D1D3D4" width="92.3" height="56"/>
+	</g>
+</g>
+</svg>
