@@ -253,6 +253,29 @@
 				<section data-markdown>
 					<textarea data-template data-notes='^Notes:'>
 						### Famous hacking methods
+						##### Port Scanning / SSH Brute-forcing
+						<pre><code data-trim data-noescape style='font-size: 13px; line-height: 17px'>
+							Feb 13 12:53:27 Orion sshd[8989]: Failed password for root from 221.194.44.211 port 46556 ssh2
+							Feb 13 12:53:29 Orion sshd[8989]: Failed password for root from 221.194.44.211 port 46556 ssh2
+							Feb 13 12:53:31 Orion sshd[8989]: Failed password for root from 221.194.44.211 port 46556 ssh2
+							Feb 13 12:53:32 Orion sshd[8989]: Received disconnect from 221.194.44.211 port 46556:11:  [preauth]
+							Feb 13 12:53:32 Orion sshd[8989]: Disconnected from 221.194.44.211 port 46556 [preauth]
+							Feb 13 12:53:36 Orion sshd[8991]: Failed password for root from 221.194.44.211 port 55224 ssh2
+							Feb 13 12:53:39 Orion sshd[8991]: Failed password for root from 221.194.44.211 port 55224 ssh2
+							Feb 13 12:53:41 Orion sshd[8991]: Failed password for root from 221.194.44.211 port 55224 ssh2
+							Feb 13 12:53:41 Orion sshd[8991]: Received disconnect from 221.194.44.211 port 55224:11:  [preauth]
+							Feb 13 12:53:41 Orion sshd[8991]: Disconnected from 221.194.44.211 port 55224 [preauth]
+							Feb 13 12:53:48 Orion sshd[8993]: Failed password for root from 221.194.44.211 port 39631 ssh2
+							Feb 13 12:53:51 Orion sshd[8993]: Failed password for root from 221.194.44.211 port 39631 ssh2
+							Feb 13 12:53:53 Orion sshd[8993]: Failed password for root from 221.194.44.211 port 39631 ssh2
+							Feb 13 12:53:53 Orion sshd[8993]: Received disconnect from 221.194.44.211 port 39631:11:  [preauth]
+							Feb 13 12:53:53 Orion sshd[8993]: Disconnected from 221.194.44.211 port 39631 [preauth]
+						</code></pre>
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+						### Famous hacking methods
 						##### Backdoor processes
 						<img src="src/backdoor.svg" width='60%'>
 
