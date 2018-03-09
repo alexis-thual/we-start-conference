@@ -78,7 +78,7 @@
 					<textarea data-template data-notes='^Notes:'>
 						### Three demos today (?)
 						* Google's face/movement recognition
-						* Alexis' classical music sentiment prediction
+						* Alexis' classical music emotion prediction
 						* ???
 					</textarea>
 				</section>
@@ -171,39 +171,87 @@
 					<textarea data-template data-notes='^Notes:'>
 						## Machine Learning
 
-						Machine learning cover a wide range of statistical methods.
-
-						They all work the same way:
-						* you give them inputs (images, features of a person...)
-						* you tell them what you want them to predict (topic of the image, what the person will buy)
-						* they output you what they think is the most likely answer
+						Machine learning cover a wide range of statistical methods
+						* Linear regression
+						* Logistic regression
+						* Support Vector Machines
+						* Neural networks
+						* ...
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+							## Machine Learning
+							The goal: predict the <strong>label</strong> of <strong>items</strong> given their <strong>features</strong>.
+							* Items: emails, pictures, customers, chess game
+							* Features: text, pixels color, personal data, pieces position
+							* Label: spam or not, topic of the image, item to be bought, next good move
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+							## Machine Learning
+							### General Principle
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+						### 1. Input
+						You give them examples with their true label.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+						### 2. Training
+						You let them build a model based on those examples: according to the examples, determine
+						what is	<strong>the most likely label</strong> given the examples' features.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+						### 3. Testing
+						You give them examples they have never seen, and hide their label: then you see which label
+						the model predicts and compare it with the true one.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+						### 4. Use it!
+						When you get new data with unknown label (pictures taken by the camera of an autonomous car, personal data of new customers),
+						you use your model to predict their label without doing it by hand.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+						### Machine Leaning and Big Data
+						##### Predicting the emotion felt by hearing classical music
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+						### Demo II
+						##### Predicting the emotion felt by hearing classical music
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+						### Machine Learning is not a black box!
+						We design them and therefore understand how they work
 					</textarea>
 				</section>
 				<section data-markdown>
 					<textarea data-template data-notes='^Notes:'>
 						## Machine Learning
-
-						Not a black box, we design them, control them and understand how they work
+						### An insight on Neural Networks (aka Deep Learning):
+						<img src="https://upload.wikimedia.org/wikipedia/commons/4/46/Colored_neural_network.svg">
 					</textarea>
 				</section>
 				<section data-markdown>
 					<textarea data-template data-notes='^Notes:'>
 						## Machine Learning
-
-						Focus on Neural Networks (aka Deep Learning):
-						* from a basic example: recognize a cat picture
-						* what's a perceptron, the notion of "activation"
-						* intuition on gradient descent and backtracking
-					</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						## Machine Learning
-
-						How machine learning works:
-						* training the algorithm on a large data set (=> big data)
-						* testing "how good" the algorithm is (what metrics)
-						* use it on new data! Example: classify unseen images, new customers, etc.
+						### An insight on Neural Networks (aka Deep Learning):
+						* What is a <strong>perceptron</strong>, the notion of <strong>"activation"</strong>.
+						* An intuition on <strong>gradient descent</strong> and <strong>backtracking</strong>.
 					</textarea>
 				</section>
 				<section data-markdown>
@@ -220,6 +268,14 @@
 						* it can only work with what it is given (the set of data you give it)
 						* it can only output something you ask for (classifies only among the category given)
 						* it cannot act on its own (have an autonomous behaviour like reaching the internet, shutting dow your computer)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+						## Delimiting AI
+
+						An example of overreaction and misundertanding:
+						["Facebook's artificial intelligence robots shut down after they start talking to each other in their own language"](https://www.independent.co.uk/life-style/gadgets-and-tech/news/facebook-artificial-intelligence-ai-chatbot-new-language-research-openai-google-a7869706.html)
 					</textarea>
 				</section>
 				<section data-markdown>
