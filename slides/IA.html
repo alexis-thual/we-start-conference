@@ -74,17 +74,17 @@
 				<section data-markdown>
 					<textarea data-template data-notes='^Notes:'>
 						### Three crucial ideas today
-						* Artificial Intelligence (AI) is a broad concept, its meaning has evolved over time.
-						* Modern AI is a set of complex statistical methods.
-						* AI is not a black box: we design it, we understand what it does, we control it.
+						* Loads of people convey misleading ideas about AI and technology
+						* Until today, what we have been calling AI was never more than a complex and controled tool designed for very specific tasks
+						* Intelligence is contextual
 					</textarea>
 				</section>
 				<section data-markdown>
 					<textarea data-template data-notes='^Notes:'>
 						### Three demos today
-						* Google's face/movement recognition
+						* Understanding mapping, classification and regression
 						* Predicting emotions conveyed by music
-						* ???
+						* Neural Networks with Google Cam
 					</textarea>
 				</section>
 				<section>
@@ -111,112 +111,204 @@
 						<h4>All ot them "are"!</h4>
 					</div>
 				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						### An evolutive concept
-
-						AI is a <strong>algorithmic process</strong> producing a result following a <strong>specific task</strong>
-						and given <strong>an environment</strong>.
-
-						The goal is an automation of "hard" tasks.
-
-						TODO: image
-
-						TODO: define a specific problem (music > emotion)
-					</textarea>
+				<section>
+					<h3>An evolutive concept</h3>
+					<div class="fixed-half">
+						Now: AI is a <strong>algorithmic process</strong> designed for a <strong>specific task</strong>
+						given a <strong>known environment</strong>.<br/><br/>
+						<div class="fragment">
+							Examples
+							<em>
+								<ul>
+									<li>Translate English into Russian</li>
+									<li>Generate a socially-valid answer to questions</li>
+									<li>Predict perceived emotion from music samples</li>
+								</ul>
+							</em>
+						</div>
+					</div>
 				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						### An evolutive concept
+				<section>
+					<h3>An evolutive concept</h3>
+					<div class="fixed-half">
+						A turning point: from <strong>rules</strong> to <strong>statistics</strong>.<br/><br/>
 
-						A key differenciation:<br> Reasoning following <strong>rules</strong> or <strong>statistics</strong>
-					</textarea>
+						<div class="fragment">
+							<em>Example: playing chess</em>.<br/>
+							Deterministic strategy:<br/>
+							<ul>
+								<li>What pieces are at stake?</li>
+								<li>Should I attack or defend?</li>
+							</ul>
+						</div>
+					</div>
 				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						### An evolutive concept
+				<section>
+					<h3>An evolutive concept</h3>
+					<div class="fixed-half">
+						A turning point: from <strong>rules</strong> to <strong>statistics</strong>.<br/><br/>
 
-						<strong>Symbolic reasoning</strong>, aka <strong>reasoning with rules</strong>, used to be the way of conceiving AI (1950-1970).
-
-						Notes:
-						Example: General Game Playing
-				</textarea>
+						<div>
+							<img src="http://localhost:8000/src/deterministic.svg" width='30%'>
+						</div>
+					</div>
 				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						### An evolutive concept
+				<section>
+					<h3>An evolutive concept</h3>
+					<div class="fixed-half">
+						A turning point: from <strong>rules</strong> to <strong>statistics</strong>.<br/><br/>
 
-						<strong>Statistical reasoning</strong>, aka <strong>machine learning</strong>, has now become the most popular technique.
+						<div>
+							<em>Example: playing chess</em>.<br/>
+							Statistical strategy (machine learning):<br/>
+							<ul>
+								<li>What are the closest examples you know to the current position?</li>
+								<li>What was the best move?</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3>An evolutive concept</h3>
+					<div class="fixed-half">
+						A turning point: from <strong>rules</strong> to <strong>statistics</strong>.<br/><br/>
 
-						Notes:
-						Nearly taken as a synomym of AI even, even if the concept is actually broader.
-					</textarea>
+						<div>
+							<img src="http://localhost:8000/src/westartAIstrat.svg" width='30%'>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3>An evolutive concept</h3>
+					<div class="fixed-half">
+						A turning point: from <strong>rules</strong> to <strong>statistics</strong>.<br/><br/>
+
+						<div>
+							<img src="http://localhost:8000/src/westartAIstrat2.svg" width='30%'>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3>An evolutive concept</h3>
+					<div class="fixed-half">
+						A turning point: from <strong>rules</strong> to <strong>statistics</strong>.<br/><br/>
+
+						<div>
+							<img src="http://localhost:8000/src/westartAIstrat3.svg" width='30%'>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<div>
+							<strong>Goal: </strong>
+							<p>Predict perceived emotion from music sample.</p>
+						</div>
+						<div class="fragment">
+							<strong>Representation: </strong>
+							<ul>
+								<li>Find a way to handle music samples</li>
+								<li>Find a way to handle emotions</li>
+							</ul>
+						</div>
+						<div class="fragment">
+							<strong>Statistical Model: </strong>
+							<p>Generate training data and build a statistical model.</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<h4>Modeling music with numbers</h4>
+						<p>Acoustic features:</p>
+						<ul>
+							<li>Rhythm</li>
+							<li>Pitch</li>
+						</ul>
+					</div>
+				</section>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<img src="http://localhost:8000/src/model1.svg" width='60%'>
+					</div>
+				</section>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<img src="http://localhost:8000/src/westartAI.svg" width='60%'>
+					</div>
+				</section>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<img src="http://localhost:8000/src/westartAIsep.svg" width='60%'>
+					</div>
+				</section>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<img src="http://localhost:8000/src/westartAIsep2.svg" width='60%'>
+					</div>
+				</section>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<img src="http://localhost:8000/src/westartAI.svg" width='60%'>
+					</div>
+				</section>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<img src="http://localhost:8000/src/westartAI2dim.svg" width='60%'>
+					</div>
+				</section>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<img src="http://localhost:8000/src/westartAI2dim2.svg" width='60%'>
+					</div>
+				</section>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<img src="http://localhost:8000/src/westartAI2dim2sep.svg" width='60%'>
+					</div>
+				</section>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<img src="http://localhost:8000/src/westartAI2dim2sep2.svg" width='60%'>
+					</div>
 				</section>
 				<section data-markdown>
 					<textarea data-template data-notes='^Notes:'>
 						### Demo I
-						##### The power of picture recognition tools
+						##### Understanding mapping, classification and regression
+						[Tensorflow Neural Network Example](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.49649&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 					</textarea>
 				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						## Machine Learning:
-						### AI as statistical reasoning
-					</textarea>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<h4>Modeling emotions with numbers</h4>
+						<div>
+							<p>Psychological features:</p>
+							<ul>
+								<li>Valence</li>
+								<li>Arousal</li>
+							</ul>
+						</div>
+					</div>
 				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						## Machine Learning
-
-						Machine learning cover a wide range of statistical methods
-						* Linear regression
-						* Logistic regression
-						* Support Vector Machines
-						* Neural networks
-						* ...
-					</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						## Machine Learning
-						The goal: predict the <strong>label</strong> of <strong>items</strong> given their <strong>features</strong>.
-						* <strong>Items:</strong> emails, pictures, customers, chess game
-						* <strong>Features:</strong> text, pixels color, personal data, pieces position
-						* <strong>Labels:</strong> spam or not, topic of the image, item to be bought, next good move
-					</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-							## Machine Learning
-							### General Principle
-					</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						### 1. Input
-						You give them examples with their true label.
-					</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						### 2. Training
-						You let them build a model based on those examples: according to the examples, determine
-						what is	<strong>the most likely label</strong> given the examples' features.
-					</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						### 3. Testing
-						You give them examples they have never seen, and hide their label: then you see which label
-						the model predicts and compare it with the true one.
-					</textarea>
-				</section>
-				<section data-markdown>
-					<textarea data-template data-notes='^Notes:'>
-						### 4. Use it!
-						When you get new data with unknown label (pictures taken by the camera of an autonomous car, personal data of new customers),
-						you use your model to predict their label without doing it by hand.
-					</textarea>
+				<section>
+					<h3>Understanding modelisation</h3>
+					<div class="fixed-half">
+						<h4>Modeling emotions with numbers</h4>
+						<img src="http://localhost:8000/src/distrib.png" alt="distrib" width='40%'>
+					</div>
 				</section>
 				<section data-markdown>
 					<textarea data-template data-notes='^Notes:'>
@@ -237,7 +329,21 @@
 				</section>
 				<section data-markdown>
 					<textarea data-template data-notes='^Notes:'>
-						Lien IA / compréhension du cerveau
+						### Artificial Intelligence for real
+						Vision - level 0:
+						[Hubel Demonstration](https://www.youtube.com/watch?v=jw6nBWo21Zk)
+
+						Language - level 0:
+						[Dehaene - Collège de France](http://www.college-de-france.fr/site/en-stanislas-dehaene/course-2016-01-05-09h30.htm)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template data-notes='^Notes:'>
+						### Distinguish between symbols and sensations
+
+						Sensations: measurable inputs
+
+						Symbols: deeply social understanding
 					</textarea>
 				</section>
 				<section data-markdown>

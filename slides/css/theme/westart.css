@@ -36,10 +36,37 @@ img {
 
 .flex-box {
     display: flex;
+    justify-content: center;
 }
 
 .flex-box > div {
-    margin: 20px;
+    flex: 1 1;
+}
+
+.fixed-half {
+    height: 50vh;
+}
+
+ul {
+	margin: 0.75em 0;
+	padding: 0 1em;
+	list-style: none !important;
+}
+
+li {
+	/* margin-top: 0.9em !important; */
+}
+
+li:before {
+	content: "";
+	border-color: transparent #394B59;
+	border-style: solid;
+	border-width: 0.35em 0 0.35em 0.45em;
+	display: inline-block;
+	height: 0;
+	width: 0;
+	left: -1em;
+	position: relative;
 }
 
 .ul-none {
